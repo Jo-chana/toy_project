@@ -1089,7 +1089,7 @@ class lh(place):
 
 class place1(lh):
     l_restrict = 1000
-    name = 'Scallet\'s house'
+    name = 'Scallet\'s house'S
     girl_index = 1
 
 
