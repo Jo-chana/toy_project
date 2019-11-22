@@ -940,8 +940,7 @@ class company(place):
             print('exp +', e)
             me.money += r
             me.my_exp(e)
-            input('work more?');
-            i = input()
+            i=input('work more?(No: 0)');
             if i == '0':
                 break
 
@@ -1089,7 +1088,7 @@ class lh(place):
 
 class place1(lh):
     l_restrict = 1000
-    name = 'Scallet\'s house'S
+    name = 'Scallet\'s house'
     girl_index = 1
 
 
